@@ -1,0 +1,139 @@
+/* ul  {
+    display: flex;
+    list-style: none;
+} */
+ /* колір при hover: #2196F3; */
+ /* колір заголовка rgba(33, 33, 33, 1);
+ */
+ /* колір тексту background: #757575; */
+ /* колір контактів background: rgba(255, 255, 255, 0.6); */
+
+
+body {
+   background-color: #E5E5E5;
+   color:  #757575;
+   font-family: 'Roboto', sans-serif;
+  
+}
+/* header */
+.nav{
+    background-color: #fff;
+}
+.webstudio-header{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #212121;
+text-decoration:none ;
+}
+.web-header{
+    color: #2196F3;
+}
+.webstudio-header:hover,
+.webstudio-header:focus{
+    color: #2196F3;
+}
+.web-header:hover,
+.web-header:focus{
+    color: #212121;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #212121;  
+    text-decoration:none ;  
+}
+.header-contacts{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration:none ;
+}
+/* main */
+/* .main-content{
+ border-width: 1170px;
+ border-;
+} */
+    /* buttons */
+.button-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    cursor: pointer;
+}
+.buttons{
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.buttons :hover ,
+.buttons :focus {
+    background-color:  #2196F3;
+    color: #fff;  
+}
+
+
+/* list */
+.list{   
+     list-style: none;
+    /* display: flex; */
+}
+/* .portfolio{
+    display: flex;
+} */
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color:  #212121;
+
+}
+.portfolio-text{
+font-size: 16px;
+line-height: 1.875;
+}
+/* footer */
+.footer{
+    background: #2F303A;
+}
+.address{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;  
+text-decoration:none ;
+}
+.footer-contacts{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration:none ;
+}
+.webstudio-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #fff;
+text-decoration:none ;
+}
+.web-footer{
+ color: #2196F3;
+}
+.webstudio-footer:focus,
+.webstudio-footer:hover{
+color: #2196F3;
+}
+.web-footer:focus,
+.web-footer:hover{
+   color: #FFFFFF; 
+}
