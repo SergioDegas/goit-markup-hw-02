@@ -49,7 +49,7 @@ body {
 }
 .web-header:hover,
 .web-header:focus {
-  color: var(--primeary-color-text);
+  color: var(--primry-color-text);
 }
 
 .nav-link {
@@ -123,7 +123,7 @@ body {
 }
 .portfolio-list {
   box-sizing: border-box;
-  background: #ffffff;
+  background:var(--secondary-beckgrond-color);
   border: 1px solid #eeeeee;
   width: 370px;
   height: 404px;

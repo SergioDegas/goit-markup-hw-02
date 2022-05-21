@@ -18,12 +18,12 @@
      --footer-beckground-color:#2F303A;
  }
 body {
-   background-color: var(--secondary-beckgrond-color)
+   background-color: var(--secondary-beckgrond-color);
    color:var(--secondary-color-text);
    font-family: 'Roboto', sans-serif;}
 /* header */
 .nav{
-    background-color: var(--secondary-beckgrond-color)
+    background-color: var(--secondary-beckgrond-color);
     
 }
 .webstudio-header{
@@ -58,7 +58,7 @@ text-decoration:none ;
 }
 /* .nav-link:active, */
 .nav-link.current{
-  color: var(--buttons-color)
+  color: var(--buttons-color);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -182,7 +182,7 @@ color: var(--secondary-color-text);
     background:var(--footer-beckground-color);
 }
 .footer-list{
-    font-style: normal
+    font-style: normal;
 }
 .address{
 font-size: 14px;
@@ -227,5 +227,5 @@ color:var(--buttons-color);
 .address:focus,
 .contact:focus,
 .contact:hover{
-    color:var(--buttons-color)
+    color:var(--buttons-color);
 }
