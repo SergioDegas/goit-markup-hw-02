@@ -18,7 +18,7 @@
      --footer-beckground-color:#2F303A;
  }
 body {
-   background-color: var(--primeary-beckground-color);
+   background-color: var(--secondary-beckgrond-color)
    color:var(--secondary-color-text);
    font-family: 'Roboto', sans-serif;}
 /* header */
@@ -60,6 +60,14 @@ text-decoration:none ;
 .nav-link.current{
   color: var(--buttons-color)
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--buttons-color);
+}
+.current:hover,
+.current:focus {
+  color: var(--primeary-color-text);
+}
 
 
 
@@ -74,8 +82,8 @@ text-decoration:none ;
 /* list */
 .list{   
      list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 .section-hero{
 background: var(--footer-beckground-color);
@@ -95,7 +103,7 @@ color: var(--secondary-beckgrond-color);
 .button-primary{
 background-color: var(--buttons-color);
 color: var(--secondary-beckgrond-color);
-
+cursor: pointer;
 width: 200px;
 height: 50px;
 left: 700px;
